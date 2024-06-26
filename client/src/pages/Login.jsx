@@ -70,7 +70,7 @@ const Login = ({
         className="cursor-pointer text-center dark:text-white text-black"
         onClick={(e) => setIsLogin(false)}
       >
-        Don't have an account? Register
+        Don't have an account? Register!
       </button>
     </form>
   );
