@@ -23,7 +23,7 @@ const ListTodos = ({ todos, getTodos, deleteTodo, updateTodo }) => {
             className="dark:bg-gray-700 bg-white p-3 rounded-lg flex justify-between align-start"
           >
             <h1>{todo.description}</h1>
-            <div className="flex text-xl">
+            <div className="flex text-xl gap-1">
               <button
                 onClick={() => {
                   deleteTodo(todo.todo_id);
